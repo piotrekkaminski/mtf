@@ -31,6 +31,16 @@ You can use the MTF on Windows, Mac OS, Ubuntu, or CentOS.
 	For general information, see the <a href="http://www.java.com/en/download/help/index_installing.xml" target="_blank">installing Java help page</a>.
 	
 	Another resource is the <a href="http://www.java.com/en/download/help/java_update.xml" target="_blank">using Java help page</a>.
+
+### Magento 1 Configuration
+
+Magento 1 must be installed and configured to not use the secret URL key. 
+
+1.	Log in to the Magento Admin as an administrator.
+
+2.	Click **System** > **Configuration** > **Admin** > **Security**
+
+3.	Set **Add Secret Key to URLs** to **No**.
 	
 ### Magento 2 Configuration
 
@@ -87,6 +97,8 @@ For more information about web browser support, see <a href="http://docs.seleniu
    <li><tt>phpunit</tt></li>
    <li><tt>symfony</tt> </li>
    <li><tt>autoload.php</tt> (file)</li></ul>
+   
+   **Note**: Specific versions of Selenium are compatible with specific versions of browsers. You might need to manually download and update Selenium to match your browser version. 
 
 4.	Run the generator from `[your Magento install dir]/dev/tests/functional/utils/generate.php`
 

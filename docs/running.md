@@ -33,4 +33,4 @@ Install and configure the MTF as discussed in [Installing and Configuring the Ma
 	phpunit
 	```
 	
-        **Note**: In Magento 1 you might need to call `vendor/bin/phpunit` instead.
+        **Note**: In Magento 1 you might need to call vendor/bin/phpunit instead.

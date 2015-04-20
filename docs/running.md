@@ -27,10 +27,11 @@ Install and configure the MTF as discussed in [Installing and Configuring the Ma
 3.	Start your tests using PHPUnit. This can be done using your IDE or the command line.
 
 	Example using the command line:
+	
+	**Note**: In Magento 1 you might need to call `vendor/bin/phpunit` instead.
 
 	```
 	cd dev/tests/functional
 	phpunit
 	```
 	
-        **Note**: In Magento 1 you might need to call vendor/bin/phpunit instead.

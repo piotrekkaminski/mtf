@@ -32,4 +32,5 @@ Install and configure the MTF as discussed in [Installing and Configuring the Ma
 	cd dev/tests/functional
 	phpunit
 	```
+	
         **Note**: In Magento 1 you might need to call `vendor/bin/phpunit` instead.
